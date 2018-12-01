@@ -1,0 +1,28 @@
+{
+  "editor.tabSize": 2,
+  "eslint.enable": false,
+  "editor.wordWrapColumn": 110,
+  "editor.rulers": [110],
+  "[javascript]": {
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  },
+  "[typescript]": {
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  },
+  "[typescriptreact]": {
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  },
+
+}

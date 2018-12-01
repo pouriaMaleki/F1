@@ -1,0 +1,28 @@
+.root
+  position: relative
+  width: 50px
+  height: 195px
+  cursor: pointer
+
+.root::before,
+.root::after
+  position: absolute
+  top: 0
+  left: 25px
+  content: " "
+  background-color: #fff
+  width: 1px
+  height: 100px
+  display: block
+  transition: 200ms
+
+.root::before
+  transform: rotateZ(20deg)
+
+.root::after
+  transform: rotateZ(-20deg) translateY(-6px) translateX(2px)
+  top: 100px
+
+.root:hover::before,
+.root:hover::after
+  background-color: red!important
