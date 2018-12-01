@@ -20,6 +20,7 @@
     "react-inview-monitor": "^2.2.0",
     "react-scripts": "2.1.1",
     "react-scroll-to-component": "^1.0.2",
+    "react-spinners": "^0.4.7",
     "react-test-renderer": "^16.6.3",
     "roboto-fontface": "^0.10.0",
     "scrollmonitor-react": "^2.4.1",

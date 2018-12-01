@@ -11,18 +11,20 @@ interface IProps {
   season: string;
   results: IResult[];
   driver: string;
+  driverId: string;
   onViewDetails: any;
 }
 
 // just let it be class without state, because we need to use "ref" in parent
 class Season extends Component<IProps, never> {
   render() {
-    const { season, results, driver, onViewDetails } = this.props;
+    const { season, results, driver, driverId, onViewDetails } = this.props;
+
     return (
       <div className={css.root}>
         <Background season={season} />
         <Logo className={css.logo} />
-        <Driver driver={driver} className={css.driver} />
+        <Driver driverId={driverId} driver={driver} className={css.driver} />
         <Info
           season={season}
           className={css.info}

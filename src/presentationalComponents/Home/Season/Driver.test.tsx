@@ -10,7 +10,7 @@ describe("Render Driver", () => {
   // snapshot test
   it("render correctly Driver component", () => {
     const DriverComponent = renderer
-      .create(<Driver driver={driver} />)
+      .create(<Driver driver={driver} driverId={driver} />)
       .toJSON();
     expect(DriverComponent).toMatchSnapshot();
   });
@@ -20,6 +20,7 @@ describe("Render Driver", () => {
     const CLASSNAME = "CLASSNAME";
     const props = {
         driver: driver,
+        driverId: driver,
         className: CLASSNAME
       },
       DriverComponent = mount(<Driver {...props} />);
@@ -29,7 +30,8 @@ describe("Render Driver", () => {
 
   it("render proper driver image", () => {
     const props = {
-        driver: driver
+        driver: driver,
+        driverId: driver
       },
       DriverComponent = mount(<Driver {...props} />);
     expect(DriverComponent.find("img").prop("src")).toEqual(drivers[driver]);

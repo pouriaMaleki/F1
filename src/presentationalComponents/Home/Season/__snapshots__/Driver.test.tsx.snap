@@ -3,14 +3,14 @@
 exports[`Render Driver render correctly Driver component 1`] = `
 <div>
   <img
-    alt="Fernando Alonso"
+    alt="alonso"
     className="image"
-    src="Fernando Alonso.png"
+    src="alonso.png"
   />
   <div
     className="title"
   >
-    Fernando Alonso
+    alonso
   </div>
 </div>
 `;

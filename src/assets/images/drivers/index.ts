@@ -1,11 +1,13 @@
-import driverImageFernando from "./Fernando Alonso.png";
-import driverImageKimi from "./Kimi Räikkönen.jpg";
-import driverImageHamilton from "./Lewis Hamilton.png";
-import driverImageVettel from "./Sebastian Vettel.png";
+import driverImageFernando from "./alonso.png";
+import driverImageKimi from "./raikkonen.jpg";
+import driverImageHamilton from "./hamilton.png";
+import driverImageVettel from "./vettel.png";
+import driverImageButton from "./button.png";
 
 export default {
-  "Fernando Alonso": driverImageFernando,
-  "Kimi Räikkönen": driverImageKimi,
-  "Lewis Hamilton": driverImageHamilton,
-  "Sebastian Vettel": driverImageVettel
+  alonso: driverImageFernando,
+  raikkonen: driverImageKimi,
+  hamilton: driverImageHamilton,
+  vettel: driverImageVettel,
+  button: driverImageButton
 };

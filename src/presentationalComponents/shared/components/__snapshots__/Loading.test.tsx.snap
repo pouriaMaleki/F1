@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Loading render correctly Loading component 1`] = `
+<div
+  className="pageCenter"
+>
+  <img
+    alt="f1"
+    className="root logo"
+    src="logo.png"
+  />
+  <div
+    className="loading"
+  >
+    <div
+      className="css-1eitjko"
+    >
+      <div
+        className="css-s6e7mz"
+      />
+      <div
+        className="css-vtoicm"
+      />
+      <div
+        className="css-m3wc4i"
+      />
+      <div
+        className="css-m0vwee"
+      />
+      <div
+        className="css-o3fj8j"
+      />
+      <div
+        className="css-1q6p993"
+      />
+    </div>
+  </div>
+</div>
+`;

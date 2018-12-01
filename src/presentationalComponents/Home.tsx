@@ -32,20 +32,25 @@ class Home extends Component<IProps, IState> {
     this.setState({ selectedPage });
   };
 
+  handleSelectSeason = (season, index) => () => {
+    this.props.onViewDetails(season, index);
+  };
+
   render() {
-    const { seasons, onViewDetails } = this.props;
+    const { seasons } = this.props;
     return (
       <div className={css.root}>
         {seasons.map((season, index) => (
           <InViewMonitor
             key={index + ""}
+            classNameInView={css.inView}
             repeatOnInView={true}
             onInView={this.handlePageInView(index)}
           >
             <Season
               ref={"" + index}
               {...season}
-              onViewDetails={onViewDetails}
+              onViewDetails={this.handleSelectSeason(season, index)}
             />
           </InViewMonitor>
         ))}

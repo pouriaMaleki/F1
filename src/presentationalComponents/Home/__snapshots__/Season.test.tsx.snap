@@ -27,7 +27,6 @@ exports[`Render Season render correctly Season component 1`] = `
     <img
       alt="Lewis Hamilton"
       className="image"
-      src="Lewis Hamilton.png"
     />
     <div
       className="title"
