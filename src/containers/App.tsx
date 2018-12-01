@@ -12,11 +12,11 @@ const rounds: IRound[] = [
     round: 1,
     raceName: "Austali",
     driver: "Lwoid",
+    driverId: "Lwoid",
     team: "McDAS",
     laps: "12",
     grid: "2",
-    time: "234.3243.3",
-    seasonChampion: true
+    time: "234.3243.3"
   }
 ];
 
@@ -61,6 +61,7 @@ class App extends Component<any, IState> {
       return (
         <SeasonDetailsContainer
           season={this.state.selectedSeason.season}
+          championDriverId={this.state.selectedSeason.driverId}
           onClose={this.handleCloseDetails}
         />
       );
