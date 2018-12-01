@@ -22,7 +22,7 @@ class Season extends Component<IProps, never> {
 
     return (
       <div className={css.root}>
-        <Background season={season} />
+        <Background className={css.background} season={season} />
         <Logo className={css.logo} />
         <Driver driverId={driverId} driver={driver} className={css.driver} />
         <Info

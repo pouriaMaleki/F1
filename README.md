@@ -1,44 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# F1 World Championship Driver Results
+
+We will use http://ergast.com/mrd/ to create a single page application that presents a list that shows the F1 world champions starting from 2005 until 2015. Clicking on an item shows the list of the winners for every race for the selected year. We also highlight the row when the winner has been the world champion in the same season.
+
+## Project Specs
+
+### Language
+
+Typescript used as main language.
+
+------
+
+### Tests
+
+Jest + Enzyme (+ react-test-renderer for snapshots) is used.
+
+------
+
+### Component Structure
+
+React components are beside their SASS css modules and their test files. like:
+
+- Component.tsx
+- Component.module.sass
+- Component.test.sass
+
+and \_\_snapshots\_\_ folder is automatically created (by test framework) in each folder.
+
+------
+
+### Directory Structure
+
+To separate concerns of "UI representation" and "logic" components and for the sake of reusability, there are two folders:
+
+- containers: to store logic components
+- presentationalComponents: to keep presentational components
+
+Inside "presentationalComponents" something like [Fractal Structure](https://hackernoon.com/fractal-a-react-app-structure-for-infinite-scale-4dab943092af) is used to maintain files in scale.
+
+We can decide how to structure "containers" folder later when we had more components.
+
+In case of app growth, we can use namespaces on top of these folders, each namespace can have different "containers" and "presentationalComponents" but namespaces should not have dependencies to each other.
+
+Also API folder is very simple right now, later, with more API's we can decide best way to organize it.
+
+------
 
 ## Available Scripts
 
-In the project directory, you can run:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

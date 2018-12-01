@@ -4,11 +4,11 @@ import carImage2007 from "./2007.jpg";
 import carImage2008 from "./2008.jpg";
 import carImage2009 from "./2009.jpg";
 import carImage2010 from "./2010.jpg";
-import carImage2011 from "./2011.jpg";
-import carImage2012 from "./2012.jpg";
-import carImage2013 from "./2013.jpg";
-import carImage2014 from "./2014.jpg";
-import carImage2015 from "./2015.jpg";
+import carImage2011 from "./2011.png";
+import carImage2012 from "./2012.png";
+import carImage2013 from "./2013.png";
+import carImage2014 from "./2014.png";
+import carImage2015 from "./2015.png";
 
 export default {
   2005: carImage2005,

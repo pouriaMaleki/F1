@@ -5,7 +5,7 @@ exports[`Render Season render correctly Season component 1`] = `
   className="root"
 >
   <div
-    className="root"
+    className="root background"
   >
     <img
       alt="car"
