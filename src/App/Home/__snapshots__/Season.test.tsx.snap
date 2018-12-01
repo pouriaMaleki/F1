@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Season render correctly Season component 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="root"
+  >
+    <img
+      alt="car"
+      className="car"
+      src="2005.jpg"
+    />
+    <div
+      className="pageShades"
+    />
+  </div>
+  <img
+    alt="f1"
+    className="root logo"
+    src="logo.png"
+  />
+  <div
+    className="driver"
+  >
+    <img
+      alt="Lewis Hamilton"
+      className="image"
+      src="Lewis Hamilton.png"
+    />
+    <div
+      className="title"
+    >
+      Lewis Hamilton
+    </div>
+  </div>
+  <div
+    className="root info"
+  >
+    <div
+      className="season"
+    >
+      2005
+    </div>
+    <div
+      className="title"
+    >
+      Formula 1
+    </div>
+    <div
+      className="smallTitle"
+    >
+      World Championship
+    </div>
+    <div
+      className="root viewPageButton"
+      onClick={[Function]}
+    >
+      View Details
+    </div>
+  </div>
+  <div
+    className="root results"
+  >
+    <div
+      className="root"
+    >
+      <div
+        className="title"
+      >
+        No.
+      </div>
+      <div
+        className="value"
+      >
+        26
+      </div>
+    </div>
+  </div>
+</div>
+`;

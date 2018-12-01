@@ -3,11 +3,7 @@ import css from "./RoundRow.module.sass";
 import classNames from "classnames";
 import { IRound } from "../IRound";
 
-interface IProps extends IRound {
-  seasonChampion?: boolean;
-}
-
-const RoundRow = (props: IProps) => {
+const RoundRow = (props: IRound) => {
   return (
     <div
       className={classNames({

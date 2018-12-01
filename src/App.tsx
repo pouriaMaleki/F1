@@ -52,7 +52,8 @@ const rounds: IRound[] = [
     team: "McDAS",
     laps: "12",
     grid: "2",
-    time: "234.3243.3"
+    time: "234.3243.3",
+    seasonChampion: true
   }
 ];
 

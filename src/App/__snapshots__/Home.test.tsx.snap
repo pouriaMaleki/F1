@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Home render correctly Home component 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="root"
+  />
+</div>
+`;

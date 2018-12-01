@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Driver render correctly Driver component 1`] = `
+<div>
+  <img
+    alt="Fernando Alonso"
+    className="image"
+    src="Fernando Alonso.png"
+  />
+  <div
+    className="title"
+  >
+    Fernando Alonso
+  </div>
+</div>
+`;

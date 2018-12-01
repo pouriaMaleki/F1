@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render ResultBox render correctly ResultBox component 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="title"
+  >
+    title
+  </div>
+  <div
+    className="value"
+  >
+    value
+  </div>
+</div>
+`;

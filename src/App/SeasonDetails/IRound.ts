@@ -6,4 +6,5 @@ export interface IRound {
   laps: number | string;
   grid: number | string;
   time: string;
+  seasonChampion?: boolean;
 }

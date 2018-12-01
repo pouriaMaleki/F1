@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render ActionButton render correctly ActionButton component 1`] = `
+<div
+  className="root"
+>
+  ButtonChildren
+</div>
+`;

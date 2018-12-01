@@ -26,18 +26,18 @@ describe("Render Info", () => {
     const props = {
         season: "2007"
       },
-      BackgroundComponent = mount(<Info {...props} />);
+      InfoComponent = mount(<Info {...props} />);
 
-    expect(BackgroundComponent.find("." + css.season).text()).toEqual("2007");
+    expect(InfoComponent.find("." + css.season).text()).toEqual("2007");
   });
 
   it("don't render action button if onViewDetails not provided", () => {
     const props = {
         season: "2007"
       },
-      BackgroundComponent = mount(<Info {...props} />);
+      InfoComponent = mount(<Info {...props} />);
 
-    expect(BackgroundComponent.find("." + css.viewPageButton).exists()).toEqual(
+    expect(InfoComponent.find("." + css.viewPageButton).exists()).toEqual(
       false
     );
   });
@@ -47,11 +47,9 @@ describe("Render Info", () => {
         season: "2007",
         onViewDetails: () => {}
       },
-      BackgroundComponent = mount(<Info {...props} />);
+      InfoComponent = mount(<Info {...props} />);
 
-    expect(BackgroundComponent.find("." + css.viewPageButton).exists()).toEqual(
-      true
-    );
+    expect(InfoComponent.find("." + css.viewPageButton).exists()).toEqual(true);
   });
 
   // mock function props - function call test
@@ -61,8 +59,8 @@ describe("Render Info", () => {
         season: "2007",
         onViewDetails: onViewDetails
       },
-      BackgroundComponent = mount(<Info {...props} />);
-    BackgroundComponent.find("." + css.viewPageButton)
+      InfoComponent = mount(<Info {...props} />);
+    InfoComponent.find("." + css.viewPageButton)
       .hostNodes()
       .simulate("click");
 

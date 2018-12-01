@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Results render correctly Results component 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="root"
+  >
+    <div
+      className="title"
+    >
+      No.
+    </div>
+    <div
+      className="value"
+    >
+      26
+    </div>
+  </div>
+  <div
+    className="root"
+  >
+    <div
+      className="title"
+    >
+      No.
+    </div>
+    <div
+      className="value"
+    >
+      26
+    </div>
+  </div>
+  <div
+    className="root"
+  >
+    <div
+      className="title"
+    >
+      No.
+    </div>
+    <div
+      className="value"
+    >
+      26
+    </div>
+  </div>
+</div>
+`;

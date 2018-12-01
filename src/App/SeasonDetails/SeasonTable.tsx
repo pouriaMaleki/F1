@@ -11,7 +11,7 @@ const SeasonTable = (props: IProps) => {
   return (
     <div className={css.root}>
       {props.rounds.map((round, index) => (
-        <RoundRow key={index} {...round} seasonChampion={index === 3} />
+        <RoundRow key={index} {...round} />
       ))}
     </div>
   );

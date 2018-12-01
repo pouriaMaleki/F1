@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render RoundRow render correctly RoundRow component 1`] = `
+<div
+  className="root champion"
+>
+  <div
+    className="data roundNo"
+  >
+    1
+  </div>
+  <div
+    className="data"
+  >
+    Austali
+  </div>
+  <div
+    className="data"
+  >
+    Lwoid
+  </div>
+  <div
+    className="data"
+  >
+    McDAS
+  </div>
+  <div
+    className="data"
+  >
+    12
+     Laps
+  </div>
+  <div
+    className="data"
+  >
+    2
+     Grid
+  </div>
+  <div
+    className="data"
+  >
+    1.24.32.433
+  </div>
+</div>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render PageIndicator render correctly PageIndicator component 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="circle"
+    onClick={[Function]}
+  />
+  <div
+    className="circle selected"
+    onClick={[Function]}
+  />
+</div>
+`;
