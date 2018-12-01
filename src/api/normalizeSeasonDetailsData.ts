@@ -5,7 +5,7 @@ export const normalizeSeasonDetailsData = (data: any): IRound[] => {
 
   return unstructedRounds.map(roundsData => {
     const info = roundsData.Results[0];
-    const result = {
+    const result: IRound = {
       round: roundsData.round,
       raceName: roundsData.raceName,
       driver: `${info.Driver.givenName} ${info.Driver.familyName}`,
