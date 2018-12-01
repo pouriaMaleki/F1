@@ -4,7 +4,7 @@ import { SeasonTable } from "./SeasonDetails/SeasonTable";
 import { Info } from "./shared/components/Info";
 import { Background } from "./shared/components/Background";
 import { BackButton } from "./SeasonDetails/BackButton";
-import { Logo } from "./Home/Season/Logo";
+import { Logo } from "./shared/components/Logo";
 import { IRound } from "./SeasonDetails/IRound";
 
 interface IProps {

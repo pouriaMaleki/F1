@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Background render correctly Background component 1`] = `
+<div
+  className="root"
+>
+  <img
+    alt="car"
+    className="car"
+    src="2005.jpg"
+  />
+  <div
+    className="pageShades"
+  />
+</div>
+`;

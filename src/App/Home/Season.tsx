@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import css from "./Season.module.sass";
-import { Logo } from "./Season/Logo";
+import { Logo } from "../shared/components/Logo";
 import { Driver } from "./Season/Driver";
 import { Background } from "../shared/components/Background";
 import { Info } from "../shared/components/Info";

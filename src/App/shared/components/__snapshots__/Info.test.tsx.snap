@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Info render correctly Info component 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="season"
+  >
+    2005
+  </div>
+  <div
+    className="title"
+  >
+    Formula 1
+  </div>
+  <div
+    className="smallTitle"
+  >
+    World Championship
+  </div>
+</div>
+`;

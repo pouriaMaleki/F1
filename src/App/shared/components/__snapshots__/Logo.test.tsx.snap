@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Logo render correctly logo component 1`] = `
+<img
+  alt="f1"
+  className="root"
+  src="logo.png"
+/>
+`;
