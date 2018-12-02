@@ -24,6 +24,7 @@ describe("Render Home", () => {
           {
             season: "2005",
             driver: "Lewis Hamilton",
+            driverId: "hamilton",
             results: [
               {
                 title: "No.",
@@ -42,6 +43,7 @@ describe("Render Home", () => {
           {
             season: "2005",
             driver: "Lewis Hamilton",
+            driverId: "hamilton",
             results: [
               {
                 title: "No.",
@@ -73,6 +75,7 @@ describe("Render Home", () => {
           {
             season: "2005",
             driver: "Lewis Hamilton",
+            driverId: "hamilton",
             results: [
               {
                 title: "No.",
@@ -91,6 +94,7 @@ describe("Render Home", () => {
           {
             season: "2005",
             driver: "Lewis Hamilton",
+            driverId: "hamilton",
             results: [
               {
                 title: "No.",
@@ -122,6 +126,7 @@ describe("Render Home", () => {
           {
             season: "2005",
             driver: "Lewis Hamilton",
+            driverId: "hamilton",
             results: [
               {
                 title: "No.",
@@ -140,6 +145,7 @@ describe("Render Home", () => {
           {
             season: "2005",
             driver: "Lewis Hamilton",
+            driverId: "hamilton",
             results: [
               {
                 title: "No.",
